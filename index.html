@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mini Pokemon Gallery</title>
+  <style>
+    body {
+      font-family: Helvetica;
+    }
+    #Pokemon_table {
+      width: 50%;
+      margin: 0 auto;
+    }
+    #Pokemon_table tfoot, .Picture_td{
+      text-align: center;
+    }
+    .Picture {
+      height: 100px;
+      width: 100px;
+    }
+    iframe {
+      margin: 0 auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <table id="Pokemon_table" border="1" width=50%>
+    <caption>
+      <h1>Mini Pokemon Gallery</h1>
+    </caption>
+    
+    <thead>
+      <tr>
+        <th id="Pokemon">Pokemon</th>
+        <th id="Picture">Picture</th>
+        <th id="Link">Link</th>
+      </tr>
+    </thead>
+    
+    <tfoot>
+      <tr>
+        <td colspan="3">
+          <div>
+            [<a href="mailto:411077005@mail.nknu.edu.tw">Contact</a>]
+          </div>
+          <div>
+            [<a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank">Wiki</a>]
+          </div>
+        </td>
+      </tr>
+    </tfoot>
+    
+    <tbody>
+      <tr>
+        <th headers="Pokemon">Pikachu</td>
+        <td headers="Picture" class="Picture_td">
+          <a href="https://www.pokemon.com/us/pokedex/pikachu">
+            <img class="Picture" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png">
+          </a>
+        </td>
+        <td headers="Link">
+          <a href="https://www.pokemon.com/us/pokedex/pikachu">https://www.pokemon.com/us/pokedex/pikachu</a>
+        </td>
+      </tr>
+      <tr>
+        <th headers="Pokemon">Bulbasaur</td>
+        <td headers="Picture" class="Picture_td">
+          <a href="https://www.pokemon.com/us/pokedex/bulbasaur">
+            <img class="Picture" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png">
+          </a>
+        </td>
+        <td headers="Link">
+          <a href="https://www.pokemon.com/us/pokedex/bulbasaur">https://www.pokemon.com/us/pokedex/bulbasaur</a>
+        </td>
+      </tr>
+      <tr>
+        <th headers="Pokemon">Charmander</td>
+        <td headers="Picture" class="Picture_td">
+          <a href="https://www.pokemon.com/us/pokedex/charmander">
+            <img class="Picture" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png">
+          </a>
+        </td>
+        <td headers="Link">
+          <a href="https://www.pokemon.com/us/pokedex/charmander">https://www.pokemon.com/us/pokedex/charmander</a>
+        </td>
+      </tr>
+      <tr>
+        <th headers="Pokemon">Venusaur</td>
+        <td headers="Picture" class="Picture_td">
+          <a href="https://www.pokemon.com/us/pokedex/squirtle">
+            <img class="Picture" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png">
+          </a>
+        </td>
+        <td headers="Link">
+          <a href="https://www.pokemon.com/us/pokedex/squirtle">https://www.pokemon.com/us/pokedex/squirtle</a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xtkcVp43Df4?si=Vp6UHqfh9SW1NgTx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </td>
+      </tr>
+    </tbody>
+  </table>  
+</body>
+</html>
